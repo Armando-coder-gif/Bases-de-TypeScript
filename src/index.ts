@@ -1,6 +1,6 @@
 
 
-console.log('Hola Mundo!');
+console.log('Armando González');
 
 /*
     ===== Código de TypeScript =====
