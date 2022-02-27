@@ -29,3 +29,12 @@ const personaje: Personaje = { // este objeto es de tipo personaje
     hp: 100,
     habilidades: habilidades,
 }
+
+# Funciones 
+function sumar( a: number, b: number ): *number*{ // este number muestra que tipo de dato debe retornar. En este caso es de tipo number
+    return (a + b);
+}
+
+const resultado = sumar( 10, 20 );
+
+console.log( resultado );
