@@ -38,3 +38,7 @@ function sumar( a: number, b: number ): *number*{ // este number muestra que tip
 const resultado = sumar( 10, 20 );
 
 console.log( resultado );
+
+# Desestructuración
+- Objetos: para desestructurar *objetos* se hace con llaves {}
+- Arreglos: para desestructurar *arreglos* se hace con llaves cuadradas []
