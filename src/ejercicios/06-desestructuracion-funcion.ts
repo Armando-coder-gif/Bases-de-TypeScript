@@ -4,7 +4,7 @@
 
 // Desestructuración de argumentos
 
-interface Producto{
+export interface Producto{
     desc: string;
     precio: number;
 }
@@ -20,7 +20,7 @@ const laptop: Producto = {
 }
 
 // calcula impuesto sobre ventas
-function calculaISV( productos: Producto[] ): [number, number]{ 
+export function calculaISV( productos: Producto[] ): [number, number]{ 
     let total: number = 0;
 
     productos.forEach( ({ precio })=>{ // asi se desestructuran los argumentos
@@ -34,5 +34,5 @@ const productos: Producto[] = [ telefono, laptop ]
 
 const [ total, isv ] = calculaISV(productos); // Desestructurando arreglo
 
-console.log('Total: ', total);
-console.log('ISV: ', isv);
+// console.log('Total: ', total);
+// console.log('ISV: ', isv);
