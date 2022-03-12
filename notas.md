@@ -46,3 +46,6 @@ console.log( resultado );
 # Genéricos
 - un tipo genérico puede ser cualquier tipo de dato a la hora de llamarlo o algo implicito.
 - <T> es un estándar para decir que se esta llamando a un genérico.
+
+# Descoradores de clases
+- Sirven para expandir o añadir funcionalidades especiales a las clases.
