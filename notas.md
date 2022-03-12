@@ -42,3 +42,7 @@ console.log( resultado );
 # Desestructuración
 - Objetos: para desestructurar *objetos* se hace con llaves {}
 - Arreglos: para desestructurar *arreglos* se hace con llaves cuadradas []
+
+# Genéricos
+- un tipo genérico puede ser cualquier tipo de dato a la hora de llamarlo o algo implicito.
+- <T> es un estándar para decir que se esta llamando a un genérico.
